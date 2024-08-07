@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: "Mukta", sans-serif;
+}
+
+.container{
+ 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+ height:100vh;
+background-color:#dbe2ef;
+
+}
+.quiz{
+    background-color: #706fd3;
+    box-shadow: 0px 0px 10px #f7f1e3;
+    border-radius: 6%;
+  width:650px;
+  height:480px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.quiz h1{
+text-align: center;
+   margin:20px;
+   padding: 10px;
+   /* background-color: */
+   border-radius: 16px;
+}
+.ques{
+  width: 100%;
+  margin: 25px;
+
+}
+.ans{
+  padding: 6px;
+  padding-left: 12px;
+  font-size: large;
+  cursor: pointer;
+}
+#btn{
+  width: 40%;
+  height:70px;
+  margin-left: 40px;
+  margin-bottom: 10pc;
+ /* border-bottom-left-radius: 16px;
+ border-bottom-right-radius: 16px; */
+ border-radius: 16px;
+ cursor:pointer;
+ font-size: 20px;
+ /* background-color:#cf5235; */
+ background:linear-gradient(to right, #0f0c29, #302b63, #24243e);
+ color: aliceblue;
+ border:none;
+ box-shadow: 0px 3px 8px #0b0b0b;
+}
